@@ -36,4 +36,10 @@ body {
       display:block;
       margin:0 0 1em 0;
 }  
-      
+#body-block .body-info {
+      float:none;
+      width:auto;
+}
+.header-block .info,.block .info { float:right; }
+.header-block div.first,.block div.first,.header-block div.first { float:left; }
+.header-block div.first { margin-left:0; }

@@ -43,3 +43,22 @@ body {
 .header-block .info,.block .info { float:right; }
 .header-block div.first,.block div.first,.header-block div.first { float:left; }
 .header-block div.first { margin-left:0; }
+#header:after,#body-main:after,#footer:after,.header-block:after,.block:after {
+      content:".";
+      display:block;
+      height:0;
+      clear:both;
+      visibility:hidden;
+}
+#header,#body-main,#footer,.header-block,.block { zoom:1; }
+body {
+      font-family: Georgia;
+      color:#444;
+}
+#main-content {
+      padding: 10px 80px;
+      margin: 80px auto;
+      background: #f5f5f5;
+      border: solid #666;
+      border-width: 10px 0 5px 0;
+}      

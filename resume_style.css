@@ -17,3 +17,23 @@ body {
       *font-size:small;
       *font:x-small;
 }    
+#page,.page-content {
+      margin:auto;
+      text-align:left;
+      width:57.69em;
+      *width:56.25em;
+}
+#page {
+      width:73.076em;
+      *width:71.25em;
+}
+.body-info {
+      position:relative;
+      position:static;
+}
+#body-block .body-info { position:static; }
+.page-content #body-block .body-info {
+      display:block;
+      margin:0 0 1em 0;
+}  
+      

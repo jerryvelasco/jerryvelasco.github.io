@@ -62,3 +62,13 @@ body {
       border: solid #666;
       border-width: 10px 0 5px 0;
 }      
+.block {
+      margin-bottom:2em;
+      padding-bottom:2em;
+      border-bottom:1px solid #ccc;
+}
+#header {
+      margin:2.5em 0 3em 0;
+      padding-bottom:1.5em;
+      border-bottom:1px solid #ccc;
+}      

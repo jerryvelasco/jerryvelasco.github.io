@@ -111,3 +111,9 @@ li {
       line-height: 24px;
       border-bottom: 1px solid #ccc;
 }     
+p.large-p {
+      font-size: 144%;
+      padding-right: 6.5em;
+      line-height;
+}
+p.large-p span { color: #000; }

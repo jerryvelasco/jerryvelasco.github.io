@@ -134,3 +134,4 @@ a#pdf {
       margin-bottom: 6px;
       text-decoration: none; 
 }      
+a#pdf:hover { background: #222; }

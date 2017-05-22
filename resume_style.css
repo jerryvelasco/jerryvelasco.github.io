@@ -117,3 +117,7 @@ p.large-p {
       line-height;
 }
 p.large-p span { color: #000; }
+.contact-info {
+      margin-top: 7px;
+      line-height: 20px;
+}

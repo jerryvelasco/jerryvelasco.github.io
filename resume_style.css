@@ -99,3 +99,10 @@ h3 {
       color: gray;
 }
 h1, h2, h4 { color: #333; }
+p {
+      font-size: 100%;
+      line-height: 18px; 
+      padding-right: 3em;
+}
+a { color: #990003; }
+a:hover { text-decoration: none; }

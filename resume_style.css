@@ -42,7 +42,9 @@ body {
 }
 .header-block .info,.block .info { float:right; }
 .header-block div.first,.block div.first,.header-block div.first { float:left; }
-.header-block div.first { margin-left:0; }
+.header-block div.first { 
+      margin-left:0; 
+}
 #header:after,#body-main:after,#footer:after,.header-block:after,.block:after {
       content:".";
       display:block;

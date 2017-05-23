@@ -157,8 +157,10 @@ a#pdf:hover { background: #222; }
       float: left;
 }
 .skills h2 { margin-bottom: 6px; }
-.block .info { width: 80.2% }
-.block div.first { width: 12.3% }
+.block .info { width: 80.2%; }
+.block div.first { 
+      width: 12.3%; 
+}
 #first {
       font-size: 15px;
       color: gray;

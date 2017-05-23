@@ -6,12 +6,16 @@ body,div,ul,li,h1,h2,h3,h4,p {
       margin: 0;
       padding: 0;
 }      
-li { list-style:bullet; }
+li { 
+      list-style:bullet; 
+}
 h1,h2,h3,h4 {
       font-size:100%;
       font-weight:normal;
 }
-q:before, q:after { content:''; }
+q:before, q:after { 
+      content:''; 
+}
 body {
       font:13px/1.231,arial, helvetica,sans-serif;
       *font-size:small;
@@ -31,7 +35,9 @@ body {
       position:relative;
       position:static;
 }
-#body-block .body-info { position:static; }
+#body-block .body-info { 
+      position:static; 
+}
 .page-content #body-block .body-info {
       display:block;
       margin:0 0 1em 0;
@@ -40,8 +46,12 @@ body {
       float:none;
       width:auto;
 }
-.header-block .info,.block .info { float:right; }
-.header-block div.first,.block div.first,.header-block div.first { float:left; }
+.header-block .info,.block .info { 
+      float:right; 
+}
+.header-block div.first,.block div.first,.header-block div.first { 
+      float:left; 
+}
 .header-block div.first { 
       margin-left:0; 
 }
@@ -52,7 +62,9 @@ body {
       clear:both;
       visibility:hidden;
 }
-#header,#body-main,#footer,.header-block,.block { zoom:1; }
+#header,#body-main,#footer,.header-block,.block { 
+      zoom:1; 
+}
 body {
       font-family: Georgia;
       color:#444;
@@ -78,7 +90,9 @@ body {
       text-transform: uppercase;
       letter-spacing: 2px;
 }
-#body-main, #footer { margin-bottom: 2em; }
+#body-main, #footer { 
+      margin-bottom: 2em; 
+}
 #footer {
       padding: 1em 0 5em 0;
       font-size: 92%;
@@ -98,20 +112,30 @@ h2 {
       font-size: 152%; 
       font-style: italic;
 }
-h3, h4 { font-size: 122%; }
+h3, h4 { 
+      font-size: 122%; 
+}
 h3 {
       font-style: italic;
       color: gray;
 }
-h1, h2, h4 { color: #333; }
+h1, h2, h4 { 
+      color: #333; 
+}
 p {
       font-size: 100%;
       line-height: 18px; 
       padding-right: 3em;
 }
-a { color: #990003; }
-a:hover { text-decoration: none; }
-strong { font-weight: bold; }
+a { 
+      color: #990003; 
+}
+a:hover { 
+      text-decoration: none; 
+}
+strong { 
+      font-weight: bold; 
+}
 li {
       line-height: 24px;
       border-bottom: 1px solid #ccc;
@@ -121,7 +145,9 @@ p.large-p {
       padding-right: 6.5em;
       line-height;
 }
-p.large-p span { color: #000; }
+p.large-p span { 
+      color: #000; 
+}
 .contact-info {
       margin-top: 7px;
       line-height: 20px;
@@ -139,7 +165,9 @@ a#pdf {
       margin-bottom: 6px;
       text-decoration: none; 
 }      
-a#pdf:hover { background: #222; }
+a#pdf:hover { 
+      background: #222; 
+}
 .jobs {
       position: relative;
       margin-bottom: 1em;
@@ -151,13 +179,19 @@ a#pdf:hover { background: #222; }
       top: 0.35em;
       right: 0;
 }
-.jobs p { margin: 0.75em 0 3em 0; }
+.jobs p { 
+      margin: 0.75em 0 3em 0; 
+}
 .skills {
       width: 32%;
       float: left;
 }
-.skills h2 { margin-bottom: 6px; }
-.block .info { width: 80.2%; }
+.skills h2 { 
+      margin-bottom: 6px; 
+}
+.block .info { 
+      width: 80.2%; 
+}
 .block div.first { 
       width: 12.3%; 
 }

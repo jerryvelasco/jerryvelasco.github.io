@@ -124,7 +124,10 @@ p.large-p span { color: #000; }
       margin-top: 7px;
       line-height: 20px;
 }
-.last { border-bottom: 0; }
+.last { 
+      border-bottom: 0;
+      border: none;
+}
 a#pdf {
       display: block;
       float: left;
@@ -147,4 +150,28 @@ a#pdf:hover { background: #222; }
       right: 0;
 }
 .jobs p { margin: 0.75em 0 3em 0; }
-.last { border: none; }
+.skills {
+      width: 32%;
+      float: left;
+}
+.skills h2 { margin-bottom: 6px; }
+.block .info { width: 80.2% }
+.block div.first { width: 12.3% }
+#first {
+      font-size: 15px;
+      color: gray;
+      padding-top: 10px;
+}
+.image ul {
+      list-style: none;
+      float: right;
+      display: block;
+}
+.image ul li {
+      right: 195px;
+      top: 52px;
+      position: relative;
+      border: none;
+      padding: 0;
+      margin: -3px;
+}      

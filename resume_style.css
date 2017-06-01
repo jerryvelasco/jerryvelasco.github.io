@@ -3,14 +3,7 @@ html{
 	background:#FFF;
 	height: 100%;
 	overflow: hidden;
-}
-background-image {
-      	background-image: url("/table.jpeg");
-      	height: 150%;
-      	width: 100%;
-      	background-size: cover;
-      	overflow: hidden;
-      	display: block;
+	background-image: url("/table.jpeg");
 }
 html, body {
       	width: 100%;

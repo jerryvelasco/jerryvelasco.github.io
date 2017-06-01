@@ -5,7 +5,7 @@ html{
 	overflow: hidden;
 }
 background-image {
-      	background-image: url("table.jpeg");
+      	background-image: url("/table.jpeg");
       	height: 150%;
       	width: 100%;
       	background-size: cover;

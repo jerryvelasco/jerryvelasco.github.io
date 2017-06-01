@@ -7,7 +7,7 @@ body,div,ul,li,h1,h2,h3,h4,p{
 	padding:0;
 }
 li{
-	list-style-type:bullet;
+	list-style-type:none;
 }
 h1,h2,h3,h4{
 	font-size:100%;

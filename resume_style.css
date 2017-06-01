@@ -6,9 +6,6 @@ body,div,ul,li,h1,h2,h3,h4,p{
 	margin:0;
 	padding:0;
 }
-li{
-	list-style-type:none;
-}
 .last skill {
 	list-style-type: bullet;
 }	
@@ -207,7 +204,7 @@ a#pdf:hover {
 	padding-top: 10px;
 }
 .image ul{
-	list-style: none;
+	list-style-type: none;
 	float: right;
 	display: block;
 }

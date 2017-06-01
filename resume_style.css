@@ -6,9 +6,6 @@ body,div,ul,li,h1,h2,h3,h4,p{
 	margin:0;
 	padding:0;
 }
-ul .last skill {
-	list-style: none;
-}	
 h1,h2,h3,h4{
 	font-size:100%;
 	font-weight:normal;

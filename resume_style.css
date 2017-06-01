@@ -1,6 +1,8 @@
 html{
 	color:#000;
 	background:#FFF;
+	height: 100%;
+	overflow: hidden;
 }
 body,div,ul,li,h1,h2,h3,h4,p{
 	margin:0;
@@ -20,6 +22,8 @@ body{
 	font:13px/1.231 arial,helvetica,sans-serif;
 	*font-size:small;
 	*font:x-small;
+	height: 100%;
+	overflow:auto;
 }
 #page,.page-content{
 	margin:auto;
